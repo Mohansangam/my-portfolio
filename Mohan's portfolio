@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Include Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Include custom styles -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div>
+        <h1 class="text-2xl font-bold">My Portfolio</h1>
+      </div>
+      <div>
+        <ul class="flex space-x-4">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mx-auto py-8">
+    <!-- About Section -->
+    <section id="about" class="mb-8">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <p class="text-lg">
+        My name is Mohan sangam. I completed my B.Tech graduation in the stream of Electronics & Communication engineering and dedicated software development enthusiast eager to embark on a career in the dynamic world of technology. Having recently completed internships in Android development and AI, I've gained practical experience in crafting solutions that merge innovation with functionality.
+
+ My passion lies in creating impactful software solutions that address real-world challenges. I thrive in collaborative environments, valuing teamwork and actively contributing ideas to drive project success. During my internships, I honed my skills in Java/Kotlin for Android development and delved into the realm of AI, grasping machine learning concepts and their application.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="mb-8">
+      <h2 class="text-3xl font-bold mb-4">Skills</h2>
+      <ul class="grid grid-cols-2 gap-4">
+        <li>Java</li>
+        <li>Problem Solving</li>
+        <li>Object-Oriented Programming</li>
+        <li>Data Analysis</li>
+        <li>Python</li>
+        <li>cloud practitioner</li>
+        <li>MS office</li>
+        <!-- Add more skills here -->
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="mb-8">
+      <h2 class="text-3xl font-bold mb-4">Projects</h2>
+      <!-- Add your projects here with descriptions -->
+      <div class="grid grid-cols-1 gap-4">
+        <div class="border p-4">
+          <h3 class="text-xl font-bold mb-2">Android app development</h3>
+          <p>Android app development.</p>
+          <p>Developed and implemented Android applications, gaining hands-on experience in Java/Kotlin programming languages and Android Studio.
+            Collaborated with a team to design, develop, and deploy user-friendly and functional applications, showcasing problem-solving skills and teamwork abilities.
+            Learned and applied industry best practices for software development, including version control and debugging techniques.</p>
+        </div>
+        <div class="border p-4"></div>
+          <h3 class="text-xl font-bold mb-2"> AI vitual intern</h3>
+          <p>Engaged in practical projects focused on artificial intelligence, acquiring skills in machine learning algorithms, data preprocessing, and model deployment.
+            Collaborated with industry professionals, gaining insights into real-world AI applications and enhancing problem-solving abilities in AI-related challenges.
+            Applied learned concepts to create AI-based solutions, demonstrating adaptability and a proactive approach to learning new technologies..</p>
+        </div>
+        <!-- Add more projects here -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2 class="text-3xl font-bold mb-4">Contact</h2>
+      <p>Feel free to reach out to me via email at <a href="mailto:youremail@example.com">mohansangam121@gmail.com</a>.</p>
+    </section>
+  </div>
+
+  <!-- JavaScript (if needed) -->
+  <script>
+    // Add JavaScript functionality here if required
+  </script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Your head content remains unchanged -->
+</head>
+
+<body class="bg-gray-100">
+  <nav class="bg-gray-800 text-white p-4">
+    <!-- Your navbar content remains unchanged -->
+  </nav>
+
+  <div class="container mx-auto py-8">
+    <!-- Your main content sections remain unchanged -->
+    
+    <!-- Contact Me Section -->
+    <section id="contact-me" class="mb-8">
+      <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+      <form class="max-w-md mx-auto">
+        <div class="grid grid-cols-1 gap-4">
+          <div>
+            <label for="firstName" class="block mb-2">First Name</label>
+            <input type="text" id="firstName" name="firstName" class="w-full border-gray-300 rounded-md px-4 py-2">
+          </div>
+          <div>
+            <label for="lastName" class="block mb-2">Last Name</label>
+            <input type="text" id="lastName" name="lastName" class="w-full border-gray-300 rounded-md px-4 py-2">
+          </div>
+          <div>
+            <label for="email" class="block mb-2">Email Address</label>
+            <input type="email" id="email" name="email" class="w-full border-gray-300 rounded-md px-4 py-2">
+          </div>
+          <div>
+            <label for="message" class="block mb-2">Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full border-gray-300 rounded-md px-4 py-2"></textarea>
+          </div>
+          <div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-md">Send Message</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <!-- Your footer content remains unchanged -->
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Your head content remains unchanged -->
+</head>
+
+<body class="bg-gray-100">
+  <nav class="bg-gray-800 text-white p-4">
+    <!-- Your navbar content remains unchanged -->
+  </nav>
+
+  <div class="container mx-auto py-8">
+    <!-- Your main content sections remain unchanged -->
+    
+    <!-- Contact Me Section -->
+    <section id="contact-me" class="mb-8">
+      <h2 class="text-3xl font-bold mb-4">Contact Me</h2>
+      <form class="max-w-md mx-auto">
+        <!-- Your contact form fields remain unchanged -->
+      </form>
+    </section>
+  </div>
+
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+      <!-- About Me -->
+      <div class="mb-4 md:mb-0">
+        <h3 class="text-lg font-bold mb-2">About Me</h3>
+        <p>I'm a job seeker passionated about coding and want to build great software solutions.</p>
+      </div>
+      
+      <!-- Social Media Links -->
+      <div class="mb-4 md:mb-0">
+        <h3 class="text-lg font-bold mb-2">Social Media</h3>
+        <ul class="flex space-x-4">
+          <li><a href="https://github.com/Mohansangam" target="_blank">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/mohan-sangam-16a523249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+          <!-- Add more social media links here -->
+        </ul>
+      </div>
+      
+      <!-- Contact Information -->
+      <div>
+        <h3 class="text-lg font-bold mb-2">Contact</h3>
+        <p>Email: mohansangam121@gmail.com</p>
+        <p>Phone: +91 6304012173</p>
+      </div>
+    </div>
+    
+    <!-- Copyright -->
+    <div class="bg-gray-700 text-white text-center py-4">
+      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
